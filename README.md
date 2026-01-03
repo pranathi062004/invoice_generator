@@ -1,16 +1,52 @@
-# React + Vite
+# 🧾 Invoice Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Invoice Generator web application** built with **React, Firebase, and Tailwind CSS**.  
+This app allows users to manage clients, create invoices, track payment status, and download invoices as PDFs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 https://invoice-generator-orpin-seven.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 **Authentication**
+  - Email & Password login/signup (Firebase Auth)
+  - Protected routes
+  - Secure logout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 👥 **Client Management**
+  - Add and view clients
+  - Client data stored per user
+
+- 🧾 **Invoice Management**
+  - Create invoices with multiple line items
+  - Auto subtotal & total calculation
+  - Invoice statuses: **Draft / Sent / Paid**
+  - Filter invoices by status
+  - Mark invoices as paid
+
+- 📄 **PDF Download**
+  - Download invoices as PDF using jsPDF
+
+- 🎨 **UI / UX**
+  - Clean & responsive UI
+  - Styled using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS
+- **Backend / DB:** Firebase (Auth + Firestore)
+- **Routing:** React Router
+- **PDF Generation:** jsPDF
+- **Hosting:** Vercel
+
+---
+
+## 📁 Project Structure
+
