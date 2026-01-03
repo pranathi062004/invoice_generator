@@ -47,6 +47,3 @@ This app allows users to manage clients, create invoices, track payment status, 
 - **Hosting:** Vercel
 
 ---
-
-## 📁 Project Structure
-
